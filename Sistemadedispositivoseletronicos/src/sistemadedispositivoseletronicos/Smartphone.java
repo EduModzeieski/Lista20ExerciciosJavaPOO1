@@ -1,0 +1,22 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package sistemadedispositivoseletronicos;
+
+/**
+ *
+ * @author eduar
+ */
+public class Smartphone extends Dispositivo {
+
+    public Smartphone(String marca, String modelo) {
+        super(marca, modelo);
+    }
+
+    @Override
+    public void executarFuncao() {
+        System.out.println(getModelo() + " está abrindo um aplicativo.");
+    }
+}
